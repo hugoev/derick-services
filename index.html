@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derick's Professional Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>Derick's Services</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#services">My Services</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro">
+        <div class="overlay"></div>
+        <video autoplay muted loop id="bgVideo">
+            <source src="goatweb.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <h2>Welcome to Derick's Professional Services</h2>
+            <p>Providing a wide range of specialized services for all your needs.</p>
+            <a href="#services" class="btn">Explore Services <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Underwater Welding</h3>
+                    <p>Expert underwater welding services for marine and industrial applications.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-plane"></i>
+                    <h3>Pilot Services</h3>
+                    <p>Professional piloting services for both commercial and private flights.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Professional Bouncer</h3>
+                    <p>Experienced bouncer services to ensure safety and security at events.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>24/7 Security Guard</h3>
+                    <p>Round-the-clock security guard services for your peace of mind.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Mental Therapist</h3>
+                    <p>Qualified mental therapy services to support your mental health.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>Private Investigator</h3>
+                    <p>Discreet and professional private investigation services.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Wall Street Investor</h3>
+                    <p>Expert investment strategies to grow your wealth.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Architect</h3>
+                    <p>Innovative architectural designs for residential and commercial projects.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Personal Injury Attorney</h3>
+                    <p>Expert legal representation for personal injury cases.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Criminal Defense Attorney</h3>
+                    <p>Professional criminal defense services to protect your rights.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Financial Loaner</h3>
+                    <p>Reliable financial loan services to support your financial needs.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Philanthropist</h3>
+                    <p>Dedicated philanthropic services to give back to the community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="derickphoto.png" alt="About Me">
+                <p>Hi, I'm Derick, a multi-talented professional with years of experience in providing top-quality services across various fields.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <p>"Derick's services are exceptional. His expertise in underwater welding saved our project."</p>
+                    <h4>- Mark Cuban</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Professional and reliable. Derick's pilot services are top-notch."</p>
+                    <h4>- Donald Trump</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Derick helped me escape the matrix."</p>
+                    <h4>- Andrew Tate</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Great business partner."</p>
+                    <h4>- Scott Disick</h4>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Send A Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Floating Action Button -->
+    <button class="fab"><i class="fas fa-envelope"></i></button>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
