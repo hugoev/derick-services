@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelector('.nav-links');
     const toggleMode = document.getElementById('toggleMode');
     const body = document.body;
+    const bgVideo = document.getElementById('bgVideo');
 
     burger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
@@ -78,5 +79,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     toggleMode.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
+    });
+
+    // Programmatically play the video to ensure it starts on mobile devices
+    bgVideo.play().catch(error => {
+        console.error('Video playback failed:', error);
     });
 });
